@@ -12,17 +12,25 @@ import (
 
 
 
+
+
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "mycli",
 	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
+	Long: `A longer description tdasdnsnfhat spans multiple lines and likely contains
 examples and usage of using your application. For example:
 
 Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	// Uncomment the following line if your bare application
+  // has more than one subcommand. For example, if your application
+    // has a command called "generate" which has subcommands called
+    // "endpoint" and "schema", add them here.
+    //
+    // rootCmd.AddCommand(newEndpointCmd())
+    // rootCmd.AddCommand(newSchemaCmd())
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
 }
